@@ -1,6 +1,6 @@
-/* Reset styles
+ /* Reset styles */
 html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+ blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
@@ -20,12 +20,13 @@ time, mark, audio, video {
     vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-/* article, aside, details, figcaption, figure, 
+ article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
     display: block;
 }
 body {
     line-height: 1;
+    background-color: green;
 }
 ol, ul {
     list-style: none;
@@ -42,7 +43,7 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
- */
+ 
 
 
  form {
@@ -51,6 +52,7 @@ table {
   justify-content: center;
   align-items: center;
   height: 100vh;
+ 
 }
 
 .form-container {
@@ -114,7 +116,7 @@ input[type="password"] {
 
 button[type="submit"] {
   padding: 15px 30px;
-  background-color: blue;
+  background-color: orange;
   color: white;
   border: none;
   border-radius: 5px;
@@ -123,7 +125,10 @@ button[type="submit"] {
   cursor: pointer;
   width: 100%;
 }
-
+a {
+  color: orange;
+  text-decoration: underline;
+}
 
   
   @media (max-width: 767px) {
